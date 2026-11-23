@@ -7,7 +7,7 @@ import os
 class IU:
     def __init__(self, app):
         
-        self.erreur = {"vide" : ["La case pour QR est vide","Il n'y a pas de nom, enregistré sous abréviation"], "long" : ["Le message est trop long","le nom est trop long"], "inconnu" : ["Comment tu t'es débrouillié ?"]}
+        self.erreur = {"vide" : ["La case pour QR est vide","Il n'y a pas de nom, enregistré sous abréviation"], "long" : ["Le message est trop long (max 2930)","le nom est trop long (max 100)"], "inconnu" : ["Comment tu t'es débrouillié ?"]}
         self.message_derreur = QErrorMessage()
         
         self.Generateur = GénérateurQR("Transformer en QRcode")
