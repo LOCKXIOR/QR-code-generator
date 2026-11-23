@@ -21,6 +21,7 @@ Today, on 23/11/2026, the day following the release I added :
 - New themes for the UI
 - New Error messages
 - A whole new system to change the themes, it is maybe nothing... but I am really proud of it
+- A limit of caracters (2930 for elements and 100 for the name)
 
 ## What's happening now ?
 
