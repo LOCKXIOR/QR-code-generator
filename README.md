@@ -1,4 +1,4 @@
-# QR-code-generator
+# QR-code-generator (Qor code)
 It uses one of the tools I created for my group project "Medi-Link"
 
 ## What do I mean by "It uses one of the tools I created for my group project" ?
